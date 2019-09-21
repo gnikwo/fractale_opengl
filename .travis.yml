@@ -8,4 +8,4 @@ before_install:
   - sudo apt-get install libsoil-dev
   - sudo apt-get install libglm-dev
   - sudo apt-get install llvm
-  - sudo apt-get install llvm-dev
+  - sudo apt-get install build-essential

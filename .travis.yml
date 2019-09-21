@@ -3,3 +3,4 @@ install: make
 compiler: gcc
 before_install:
   - sudo apt-get update
+  - sudo apt-get install libglew-dev

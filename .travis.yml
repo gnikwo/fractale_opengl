@@ -9,3 +9,12 @@ before_install:
   - sudo apt-get install libglm-dev
   - sudo apt-get install llvm
   - sudo apt-get install build-essential
+
+notifications:
+    webhooks:
+        urls:
+            - "https://scalar.vector.im/api/neb/services/hooks/dHJhdmlzLWNpLyU0MG5hYm9zJTNBZ2xhcmdoLmZyLyUyMXJjV21kaVJYVEVKYkZ0RXd5eCUzQWdsYXJnaC5mcg"
+        on_success: change  # always|never|change
+        on_failure: always
+        on_start: never
+
